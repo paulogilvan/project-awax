@@ -9,9 +9,11 @@ body {
     overflow-x:hidden;
 }
 header {
+    width: 100vw;
     height:100px;
     background-color:#000;
     color:#FFF;
+    position: fixed;
 }
 .header {
     max-width:1140px;
@@ -234,6 +236,12 @@ footer {
     color:#FFF;
     font-size:14px;
     text-align:center;
+}
+
+.fixed-link {
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
 }
 
 
@@ -1102,4 +1110,3 @@ CSS DE ÁREAS ESPECÍFICAS
     .footer-social {
         justify-content: center;
     }
-}
