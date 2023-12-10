@@ -9,7 +9,7 @@ body {
     overflow-x:hidden;
 }
 header {
-    width: 100vw;
+    width: 100%;
     height:100px;
     background-color:#000;
     color:#FFF;
@@ -240,8 +240,10 @@ footer {
 
 .fixed-link {
     position: fixed;
-    bottom: 0;
-    z-index: 99;
+    bottom: 30px;
+    right: 35px;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 
